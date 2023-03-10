@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { evaluate } from 'mathjs'
 import './App.css';
 import './fonts/digital-7.regular.ttf';
-import './images/chalkboard.jpeg';
+import './images/blackboard.jpeg';
 
 function App() {
   const nums = ["clear", "back", "", "/", 9, 8, 7, "*", 6, 5, 4, "-", 3, 2, 1, "+", ".", 0, ":)", "="]
