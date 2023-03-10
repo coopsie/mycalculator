@@ -1,38 +1,62 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: Digital Regular;
+  src: url("./fonts/digital-7.regular.ttf");
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+*{
+  font-family: Digital Regular;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  height: 1000px;
+  background-image: url("./images/chalkboard.jpeg");
+  background-repeat: repeat;
 }
-
-.App-link {
-  color: #61dafb;
+.calculator{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(205, 77, 186);
+  border-radius: 20px;
+  box-shadow: rgb(116, 11, 116) 15px 8px;
+  width: 450px;
+  height: 690px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#screen{
+  width: 400px;
+  height: 120px;
+  margin: 2px;
+  padding: 5px;
+  border: 1px rgb(116, 11, 116) solid;
+  border-radius: 15px;
+  box-shadow: inset 5px 5px;
+  background-color: rgb(130, 194, 194);
+  font-size: 125px;
+  text-align: right;
 }
+.buttons{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  gap: 8px;
+  height: 500px;
+  width: 385px;
+  margin: 0px;
+}
+button{
+  background-color: rgb(225, 161, 222);
+  border-radius: 15px;
+  box-shadow: rgb(116, 11, 116) 2px 2px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  border-color: rgb(208, 33, 164);
+}
+.button:active{
+  transform: translateY(4px);
+} 
