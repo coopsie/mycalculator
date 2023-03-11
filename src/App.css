@@ -12,7 +12,6 @@ body{
   align-items: center;
   height: 1000px;
   background-image: url("./images/blackboard.jpeg");
-  background-color: aqua;
   background-position: center;
   background-size: cover;
 }
@@ -25,20 +24,20 @@ body{
   background-color: rgb(205, 77, 186);
   border-radius: 20px;
   box-shadow: rgb(116, 11, 116) 15px 8px;
-  width: 450px;
-  height: 690px;
+  width: 400px;
+  height: 640px;
 }
 
 #screen{
-  width: 400px;
-  height: 120px;
+  width: 350px;
+  height: 80px;
   margin: 2px;
   padding: 5px;
   border: 1px rgb(116, 11, 116) solid;
   border-radius: 15px;
   box-shadow: inset 5px 5px;
   background-color: rgb(130, 194, 194);
-  font-size: 125px;
+  font-size: 90px;
   text-align: right;
 }
 
@@ -49,8 +48,8 @@ body{
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
   gap: 8px;
-  height: 500px;
-  width: 385px;
+  height: 450px;
+  width: 335px;
   margin: 0px;
 }
 
@@ -59,7 +58,7 @@ button{
   border-radius: 15px;
   box-shadow: rgb(116, 11, 116) 2px 2px;
   font-family: 'Courier New', Courier, monospace;
-  font-size: 25px;
+  font-size: 22px;
   font-weight: bold;
   color: rgb(255, 255, 255);
   border-color: rgb(208, 33, 164);
